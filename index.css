@@ -1,0 +1,195 @@
+.sidenavbar ul li {
+    list-style: none;
+    padding-bottom: 1vh;
+}
+
+.sidenavbar {
+    display: block;
+    border-right: 15px double whitesmoke;
+}
+
+.sidenavbar img {
+    width: 16vw;
+    height: 40vh;
+    border-radius: 50%;
+    position: relative;
+    left: 3vw;
+    top: 7vh;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.rem-margin {
+    margin-top: 24vh;
+    margin-left: -4vw;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.info-padding {
+    padding: 5.5vh 28vh 17vh;
+}
+
+.text {
+    text-decoration: none;
+    color: rgb(140, 188, 218);
+}
+
+.text:hover {
+    color: rgba(215, 197, 197, 0.304);
+}
+
+.bg {
+    background-color: rgba(12, 12, 12, 0.979);
+}
+
+.fontsize {
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 2;
+    text-decoration: underline;
+    color: rgb(140, 188, 218);
+}
+
+.fontsizeofp {
+    font-size: 1.5vw;
+    margin: 4vw 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    /* color: rgb(245, 220, 240); */
+    /* color: red; */
+    color: rgb(140, 188, 218);
+}
+
+.other {
+    position: fixed;
+    height: 101vh;
+    margin-top: -1.1vh;
+    font-size: 2vw;
+    /* background-color: rgb(245, 220, 240); */
+    background-color: rgba(12, 12, 12, 0.979);
+    left: 0vw;
+    width: 24vw;
+}
+
+.fix {
+    position: relative;
+    left: 24vw;
+    height: 110vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: -2vh;
+    width: 75.5vw;
+}
+
+#home .info-padding .content h3,
+#home .info-padding .content h1 {
+    color: white;
+    font-size: 2vw;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 span,
+h3 span {
+    text-decoration: underline;
+    /* color: red; */
+    color: rgb(140, 188, 218);
+    text-transform: uppercase;
+    /* text-shadow: 12px 12px 10px red; */
+    text-shadow: 8px 8px 10px rgb(140, 188, 218);
+    ;
+}
+
+.content img {
+    width: 50vw;
+    height: 70vh;
+}
+
+.sidenavbar i,
+.fontsizeofp a i,
+.fontsizeofpforcontact a i {
+    font-size: 3vw;
+    color: rgb(140, 188, 218);
+    /* color: red; */
+    position: relative;
+    top: 9vh;
+    left: 3.5vw;
+}
+
+.fontsizeofp a i,
+.fontsizeofpforcontact a i {
+    text-decoration: none;
+    font-size: 10vw;
+}
+
+.sidenavbar i:hover,
+.fontsizeofp a i:hover,
+.fontsizeofpforcontact a i:hover {
+    cursor: pointer;
+}
+
+.quotes {
+    color: rgb(140, 188, 218);
+    font-size: 4vw;
+}
+
+.links {
+    padding-bottom: 7vh;
+}
+
+.quote {
+    margin-top: 4vh;
+}
+
+.quote p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(140, 188, 218);
+    font-size: 2vw;
+    position: relative;
+    left: 1vw;
+}
+
+.fontsizeofpforcontact {
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(140, 188, 218);
+    margin: -5vw 0 0;
+}
+
+.viewportnav ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 2vw;
+    color: rgb(140, 188, 218);
+    border-bottom: 3px solid rgb(140, 188, 218);
+    transition: transform 0.5s ease;
+}
+
+.viewport ul li:hover{
+    transform: translateY(-30%);
+}
+
+.viewport {
+    display: none;
+    background-color: red;
+    position: fixed;
+    top: 0vh;
+    width: 100vw;
+    left: 0vw;
+    height: 10vh;
+    z-index: 1;
+    background-color: rgba(12, 12, 12, 0.986);
+}
+
+.viewportul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 2vh;
+    left: -2vw;
+    /* background-color: black; */
+}

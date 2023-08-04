@@ -1,0 +1,162 @@
+@media (max-width: 1440px) {
+    .fontsizeofp {
+        margin: 2vw 0 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .info-padding {
+        padding: 10vh 15vh 3vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .fix {
+        left: -1vw;
+        width: 100vw;
+        height: 102vh;
+        top: 10vh;
+    }
+
+    .fontsizeofp {
+        text-align: justify;
+    }
+
+    .info-padding {
+        padding: 23vh 15vh 0vh;
+        text-align: center;
+    }
+
+    .quotes {
+        left: -37vw;
+        position: relative;
+        top: 3vh;
+    }
+
+    .content h3,
+    .content h1 {
+        text-align: end;
+        position: relative;
+        right: 5vw;
+    }
+
+    .content img {
+        width: 70vw;
+        height: 50vh;
+    }
+}
+
+@media (max-width:768px) {
+    .fix {
+        top: 15vh;
+        left: -2vw;
+        width: 101vw;
+    }
+
+    .info-padding {
+        padding: 23vh 15vh 0vh;
+        text-align: center;
+    }
+}
+
+@media (max-width:480px) {
+    .fix {
+        left: -2vw;
+        top: 9vh;
+    }
+
+    .info-padding {
+        padding: 19vh 10vh 0vh;
+        text-align: center;
+    }
+
+    .viewport ul li {
+        font-size: 3vw;
+    }
+
+    .fontsize {
+        font-size: 8vw;
+    }
+
+    .fontsizeofp {
+        font-size: 4.4vw;
+    }
+
+    .fontsizeofpforcontact {
+        font-size: 19vw;
+        margin: -16vw 0vw 0;
+        position: relative;
+        left: -4vw;
+    }
+
+    .quote {
+        left: 2vw;
+        margin-top: 7vh;
+    }
+
+    .quotes {
+        font-size: 8vw;
+        position: relative;
+        left: -32vw;
+        top: 4vh;
+    }
+
+    .quote p {
+        font-size: 6vw;
+    }
+
+    .content h3, .content h1 {
+        right: -1vw;
+    }
+}
+
+@media (max-width:320px) {
+    .fix {
+        left: -3vw;
+        top: 9vh;
+    }
+
+    .info-padding {
+        padding: 10vh 7vh 0vh;
+        text-align: justify;
+    }
+
+    .content img {
+        width: 73vw;
+        height: 30vh;
+        left: -3vw;
+        position: relative;
+    }
+
+    #home .info-padding .content h3,
+    #home .info-padding .content h1 {
+        color: white;
+        font-size: 3.4vw;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .fontsize {
+        font-size: 13vw;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .quotes {
+        font-size: 9vw;
+        position: relative;
+        left: -9vw;
+        top: 3vh;
+    }
+
+    h1 span,
+    h3 span {
+        text-shadow: none;
+    }
+
+    #home .info-padding .content h3,
+    #home .info-padding .content h1 {
+        right: -2vw;
+        top: -1.3vh;
+    }
+}
